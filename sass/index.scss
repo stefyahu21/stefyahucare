@@ -70,14 +70,20 @@
 }
 
 #app-services {
-  .card-title {
-    font-size: 1.5rem;
-  }
-  .card-text {
-    font-size: 1.2rem;
-    a {
-      color: #4527A0;
+  .card {
+    .card-title {
+      font-size: 1.5rem;
     }
+    .card-text {
+      font-size: 1.2rem;
+      a {
+        color: #4527A0;
+      }
+    }
+  }
+  
+  .card.active {
+    display: block;
   }
 }
 

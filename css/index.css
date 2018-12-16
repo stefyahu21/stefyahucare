@@ -35,11 +35,11 @@
   display: list-item; }
   #app-header .navbar .nav-item a {
     color: #4527A0;
-    font-size: 1.4rem; }
+    font-size: 1.3rem; }
 #app-header .navbar-brand {
   width: 100%; }
   #app-header .navbar-brand h4 {
-    font-size: 1.4rem; }
+    font-size: 1.3rem; }
 
 #app-banner {
   height: 300px;
@@ -49,12 +49,14 @@
   #app-banner .row {
     height: 100%; }
 
-#app-services .card-title {
+#app-services .card .card-title {
   font-size: 1.5rem; }
-#app-services .card-text {
+#app-services .card .card-text {
   font-size: 1.2rem; }
-  #app-services .card-text a {
+  #app-services .card .card-text a {
     color: #4527A0; }
+#app-services .card.active {
+  display: block; }
 
 #app-contact .social-list {
   font-size: 3.5rem; }
