@@ -1,7 +1,12 @@
-* {
+html, body {
   font-family: 'Roboto', sans-serif;
+  padding: 3px;
+  color: #000;
   margin: 0;
-  padding: 0; }
+  -webkit-text-size-adjust: none; }
+
+* {
+  float: none; }
 
 .bg-lila {
   background-color: #B39DDB; }
