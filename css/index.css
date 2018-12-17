@@ -30,6 +30,15 @@
 
 #app-header .social-list {
   font-size: 3.5rem; }
+  #app-header .social-list li {
+    border-bottom: 3px solid transparent; }
+    #app-header .social-list li:hover {
+      border-bottom: 3px solid #4527A0;
+      padding-left: 10px; }
+    #app-header .social-list li i {
+      transition: ease all .5s; }
+      #app-header .social-list li i:hover {
+        color: #4527A0 !important; }
 #app-header .navbar {
   text-align: center;
   display: list-item; }
@@ -60,6 +69,14 @@
 
 #app-contact .social-list {
   font-size: 3.5rem; }
+  #app-contact .social-list li {
+    border-bottom: 3px solid transparent; }
+    #app-contact .social-list li:hover {
+      border-bottom: 3px solid #B39DDB; }
+    #app-contact .social-list li i {
+      transition: ease all .5s; }
+      #app-contact .social-list li i:hover {
+        color: #B39DDB !important; }
 
 button:hover {
   outline: transparent !important; }
@@ -67,6 +84,10 @@ button:focus {
   outline: transparent !important;
   box-shadow: unset !important; }
 
+@media (max-width: 576px) {
+  #app-banner .about-services {
+    width: 300px;
+    margin-left: 5px !important; } }
 @media (min-width: 992px) {
   #app-header .navbar .nav-item a {
     font-size: 1.8rem;
